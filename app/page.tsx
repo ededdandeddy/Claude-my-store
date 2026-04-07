@@ -5,7 +5,7 @@ export default function Home() {
       <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 mb-3">
         Welcome to{" "}
         <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-          mystore
+          mystore - dev
         </span>
       </h1>
       <p className="text-lg text-gray-500 mb-12 max-w-lg">
