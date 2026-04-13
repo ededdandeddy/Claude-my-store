@@ -4,8 +4,8 @@ import products from "@/data/products.json";
 import type { Product } from "@/types/product";
 
 export default function Home() {
-  // Show only the first 3 products as "featured" on the homepage
-  const featured: Product[] = products.slice(0, 3);
+  // "as Product[]" tells TypeScript to trust that the JSON matches our Product type
+  const featured = (products as Product[]).slice(0, 3);
 
   return (
     <main>
