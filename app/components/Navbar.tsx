@@ -1,3 +1,6 @@
+// Navbar — sticky top navigation bar displayed on every page.
+// Shows the store logo, page links (Home, Products, About, Contact), and a cart link with item count badge.
+
 // "use client" needed because this component uses the useCart hook (browser-side state)
 "use client";
 

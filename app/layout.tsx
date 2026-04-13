@@ -1,3 +1,6 @@
+// Root Layout — the "shell" that wraps every page in the app.
+// Adds the Navbar, Footer, fonts, CartProvider, and global metadata (title, description).
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";

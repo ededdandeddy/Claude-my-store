@@ -1,3 +1,6 @@
+// Footer — displayed at the bottom of every page.
+// Contains brand info, quick links, contact details, and a copyright notice.
+
 export default function Footer() {
   // new Date().getFullYear() gives the current year so the copyright stays up to date
   const currentYear = new Date().getFullYear();

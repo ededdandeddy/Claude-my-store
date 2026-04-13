@@ -1,3 +1,6 @@
+// Homepage (/) — the landing page visitors see first.
+// Shows a hero banner, 3 featured products, and category cards linking to the Products page.
+
 import Link from "next/link";
 import Image from "next/image";
 import products from "@/data/products.json";
