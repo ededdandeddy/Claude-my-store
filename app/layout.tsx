@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { CartProvider } from "./context/CartContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
-        {/* flex-1 makes the main content fill available space, pushing footer to bottom */}
-        <div className="flex-1">{children}</div>
-        <Footer />
+        {/* CartProvider wraps everything so any page can access the cart */}
+        <CartProvider>
+          <Navbar />
+          {/* flex-1 makes the main content fill available space, pushing footer to bottom */}
+          <div className="flex-1">{children}</div>
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

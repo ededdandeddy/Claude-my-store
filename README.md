@@ -20,6 +20,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Files
+
+| File | What it does |
+|------|-------------|
+| `app/layout.tsx` | The root layout — wraps every page with the Navbar, Footer, fonts, and global metadata (page title, description). Think of it as the "shell" around all pages. |
+| `app/page.tsx` | The homepage (`/`). Currently a Tailwind test page with color swatches, typography samples, buttons, and product cards. |
+| `app/globals.css` | Global styles — imports Tailwind CSS and defines CSS variables for background/foreground colors and fonts. |
+| `app/components/Navbar.tsx` | The top navigation bar. Sticky with a frosted glass effect, contains the store logo and links to all pages. |
+| `app/components/Footer.tsx` | The site footer. Dark themed with three columns: brand info, quick links, and contact details. |
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Classic White Sneakers",
+    "price": 89.99,
+    "description": "Minimalist leather sneakers with a comfortable foam sole. Perfect for everyday wear with any outfit.",
+    "category": "clothing",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Sneakers"
+  },
+  {
+    "id": "2",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "price": 199.99,
+    "description": "Premium over-ear headphones with active noise cancellation, 30-hour battery life, and rich bass sound.",
+    "category": "gadgets",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Headphones"
+  },
+  {
+    "id": "3",
+    "name": "Oversized Cotton Hoodie",
+    "price": 64.99,
+    "description": "Soft heavyweight cotton hoodie with a relaxed fit. Features a kangaroo pocket and adjustable drawstring hood.",
+    "category": "clothing",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Hoodie"
+  },
+  {
+    "id": "4",
+    "name": "Smart Fitness Watch",
+    "price": 149.99,
+    "description": "Track steps, heart rate, and sleep quality. Water-resistant with a bright AMOLED display and 7-day battery.",
+    "category": "gadgets",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Watch"
+  },
+  {
+    "id": "5",
+    "name": "Slim Fit Denim Jacket",
+    "price": 79.99,
+    "description": "Classic denim jacket with a modern slim cut. Washed indigo finish with copper button details.",
+    "category": "clothing",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Jacket"
+  },
+  {
+    "id": "6",
+    "name": "Portable Bluetooth Speaker",
+    "price": 59.99,
+    "description": "Compact waterproof speaker with 360-degree sound. 12-hour playtime and built-in microphone for calls.",
+    "category": "gadgets",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Speaker"
+  }
+]
